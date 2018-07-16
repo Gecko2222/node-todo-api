@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var ToDo = mongoose.model('ToDo', {
+var Todo = mongoose.model('Todo', {
 
 text:{
   type: String,
@@ -18,4 +18,4 @@ completedAt:{
 }
 });
 
-module.exports = {ToDo};
+module.exports = {Todo};
